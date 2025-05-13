@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soodoku's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+    /* Define gradient backgrounds for themes */
+    .bg-gradient-to-br.from-indigo-50.via-white.to-purple-50 {
+      background: linear-gradient(to bottom right, #eef2ff, #ffffff, #faf5ff);
+    }
+    .bg-gradient-to-r.from-indigo-500.to-purple-500 {
+      background: linear-gradient(to right, #6366f1, #a855f7);
+      color: white; /* Ensure text is white on gradient background */
+    }
+    /* Shadow styling for cards */
+    .card-shadow {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+    .card-shadow:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+    /* Button styling */
+    .icon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+    .icon-button:hover {
+      opacity: 0.8;
+    }
+    </style>
+</head>
+<body class="bg-white">
+    <div class="container mx-auto px-4 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <header class="lg:col-span-4 flex justify-center">
+                <div class="sticky top-8 flex flex-col items-center">
+                    
+                    <div class="mb-6">
+                        <img src="https://avatars.githubusercontent.com/u/721466?v=4" alt="soodoku" class="w-32 h-32 rounded-full mx-auto border-4 border-gray-200 shadow-lg">
+                    </div>
+                    
+                    <h1 class="text-4xl font-bold mb-6 text-slate-800">soodoku's Portfolio</h1>
+                    
+                    <div class="max-w-2xl text-left">
+                        <p class="text-slate-800 mb-8 leading-relaxed">This introduces [your name], a skilled Python developer with a passion for unsupervised dimensionality reduction, text processing, and machine learning. With expertise in a range of programming languages and frameworks, including Python, R, and Jupyter Notebook, [your name] is committed to creating practical, easy-to-use tools for data analysis and exploration.</p>
+                        <div class="flex flex-wrap gap-3  mb-8">
+                            <span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Machine Learning</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Data Analysis</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Dimensionality Reduction</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Python</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">R</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Jupyter Notebook</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">GitHub Tools</span><span class="bg-slate-800 text-white px-3 py-1 rounded-full text-sm font-medium">Text Processing</span>
+                        </div>
+                        <p class="text-slate-800 text-sm mb-8">
+                            <span class="font-medium">Interests:</span> Unsupervised Learning, Text Analysis, Data Visualization, Python Development, Research, Collaboration
+                        </p>
+                    </div>
+                    
+                </div>
+            </header>
+
+            <div class="lg:col-span-8">
+                
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">🪈 pyppur: **P**ython **P**rojection **P**ursuit **U**nsupervised **R**eduction</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 4
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/pyppur" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">pyppur is a Python library for unsupervised dimensionality reduction using Projection Pursuit Unsupervised (Dimension) Reduction. It aims to minimize reconstruction loss or distortion.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">projection-pursuit</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">reconstruction-loss</span>
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">R MCP Server</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 17
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/rmcp" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">The rmcp repository is a server project, but its description is not provided. Assuming it to be a server implementation without specific details.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">🤝 Adjacent — Related Repositories Recommender</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 4
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/adjacent" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">adjacent is a tool that helps developers find and connect with related repositories, making it easier to discover new projects and collaborate with others.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">github-tools</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">recommender</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">related-repos</span>
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">tableqa</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 22
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/tableqa" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.gojiberries.io/cell-mates-extracting-useful-information-from-tables-for-llms/" class="icon-button border border-gray-200 bg-white" target="_blank" title="View Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">The tableqa repository is a collection of tools for extracting useful information from tables to improve the performance of large language models (LLMs) by making the most of the structured data in tables.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">🚀 ycombo: Post a Random GitHub Repo. to Hacker News</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 1
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/ycombo" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">A GitHub bot that posts a random repository to Hacker News, allowing users to discover new and interesting projects.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">github</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">hacker-news</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">ycombinator</span>
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">🏭 Generator: AutoCreate and Update GitHub Website With Summary of All the Public Repositories</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 1
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/generator" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">The generator repository is a tool designed to automate the creation of lists of repositories, summarize their contents via OpenAI, and publish the results online.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">BlogSky. Blogspot Atom → Bluesky</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 1
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/blogsky" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">A simple GitHub Action that deploys a Blogspot blog to GitHub Pages using a Blogspot export process.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">guess: Adjust Estimates of Learning for Guessing</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 3
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/guess" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="http://soodoku.github.io/guess/" class="icon-button border border-gray-200 bg-white" target="_blank" title="View Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">The guess R package adjusts naive estimates of learning for guessing, addressing the issue of overinformative processes underestimating actual learning. It provides a more accurate estimate of learning by accounting for bias due to guessing.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">adjust-estimates</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">bias</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">cran</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">learning</span>
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">Local Television Area</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 2
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/lta" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">Group zipcodes to build local television areas, using FCC DTV Maps and clustering techniques to identify regions with similar TV station offerings.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">Turbo Search and Replace</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 6
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/search-and-replace" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">Search and Replace script that edits distance-based, including removing extra blank lines, soft-hyphens, and replacing words with corrections based on a provided list.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">:sweet\_potato: tuber: Access YouTube API via R</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 185
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/tuber" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="http://gojiplus.github.io/tuber" class="icon-button border border-gray-200 bg-white" target="_blank" title="View Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">The tuber R package provides access to the YouTube API, allowing users to retrieve comments, statistics, video details, and captions in R.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">access-youtube</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">caption</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">video</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">youtube</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">youtube-api</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">youtube-oauth</span>
+                        </div>
+                    </article>
+                  
+                    <article class="bg-white border-2 border-slate-100 hover:border-slate-200 transition-colors p-6 relative card-shadow mb-6">
+                        <div class="flex justify-between items-start">
+                            <h2 class="text-2xl font-semibold mb-2 text-slate-800">RepoRoulette 🎲: Randomly Sample Repositories from GitHub</h2>
+                            <div class="flex items-center gap-2">
+                                
+                                <span class="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded-full flex items-center">
+                                    ★ 1
+                                </span>
+                                
+                                <a href="https://github.com/gojiplus/reporoulette" class="icon-button border border-gray-200 bg-white" target="_blank" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <p class="text-slate-800 mb-4">RepoRoulette is a Python package that provides a simple way to randomly sample GitHub repositories. It offers two sampling methods: ID-based sampling and temporal sampling.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">github</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">github-tools</span><span class="bg-slate-800 text-white px-2 py-1 rounded-full text-sm">sampling</span>
+                        </div>
+                    </article>
+                  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
